@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "Open Sans Bold";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Open Sans Bold"), 
+    url("./../fonts/open-sans-v34-latin-700.woff2") format("woff2"),
+    url("./../fonts/open-sans-v34-latin-700.woff") format("woff"),
+    url("./../fonts/open-sans-v34-latin-700.ttf") format("ttf"),
+    url("./../fonts/open-sans-v34-latin-700.eot") format("eot");
+}
+@font-face {
+    font-family: "Raleway Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Raleway Regular"), 
+    url("./../fonts/raleway-v28-latin-regular.woff2") format("woff2"),
+    url("./../fonts/raleway-v28-latin-regular.woff") format("woff"),
+    url("./../fonts/raleway-v28-latin-regular.ttf") format("ttf"),
+    url("./../fonts/raleway-v28-latin-regular.eot") format("eot");
+}
+
+.about {
+    box-sizing: border-box;
+}
+.about__body {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.about__header {}
+.about__title {
+    margin-top: 100px;
+}
+.title {
+    font-family: "Raleway Regular";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 40px;
+    color:#000000;
+}
+.title:after {
+    content:'';
+    position: absolute;
+    width: 170px;
+    top: 40px;
+    height: 1px;
+    left: 42%;
+    border-bottom: 1px solid #EC7979;
+    margin-top: 40px;
+}
+.about__text {
+    font-family: 'Raleway Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 80px;
+    margin-bottom: 120px;
+    color: #86878B;
+    text-align: center;
+
+}
+.about__row {
+    display: flex;
+}
+.about__column {
+    flex: 0 0 33.333%;
+}
+.item-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.item-about__icon {
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    border: 1px solid #EC7979;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 77px;
+}
+.item-about__title {
+    font-family: "Open Sans Bold";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 46px;
+}
+.item-about__text {
+    font-family: 'Raleway Regular';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: #000000;
+}
